@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #550000;
+    background-image: linear-gradient(135deg, #7a0000 0%, #330000 100%);
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+}
+
+.escudo-container {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.escudo-container img {
+    width: 130px;
+    height: auto;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+}
+
+h1 {
+    font-size: 1.6rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+h1 span.sub-title {
+    color: #ff3333;
+    display: block;
+    margin-top: 2px;
+}
+
+.description {
+    font-size: 0.85rem;
+    color: #e0e0e0;
+    line-height: 1.4;
+    margin: 15px auto 25px auto;
+    padding: 0 10px;
+}
+
+.btn-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #b30000 0%, #990000 100%);
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding: 16px 20px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    transition: all 0.2s ease;
+}
+
+.btn-menu:hover {
+    background: linear-gradient(90deg, #cc0000 0%, #b30000 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.6);
+}
+
+.btn-menu .btn-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.btn-menu .arrow {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.35);
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card h3 {
+    color: #ffcc00;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 0.85rem;
+}
+
+th, td {
+    padding: 8px 10px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+th {
+    color: #ffcc00;
+    font-weight: 600;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+td {
+    color: #f5f5f5;
+}
+
+.current-page-header {
+    font-size: 0.9rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #ff3333;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.btn-back {
+    display: inline-block;
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    font-weight: 600;
+    transition: background 0.2s;
+}
+
+.btn-back:hover {
+    background-color: #444444;
+}
+
+.footer-institucional {
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    font-size: 0.75rem;
+    color: #cccccc;
+    line-height: 1.4;
+}
+
+.footer-institucional .escudo-mini {
+    width: 24px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.footer-institucional .sena-info {
+    margin-top: 5px;
+    color: #b0b0b0;
+    font-size: 0.7rem;
+}
